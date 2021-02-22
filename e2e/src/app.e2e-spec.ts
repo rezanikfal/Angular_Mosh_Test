@@ -10,6 +10,7 @@ describe('workspace-project App', () => {
 
   it('should display welcome message', () => {
     page.navigateTo();
+    browser.sleep(5000)
     expect(page.getTitleText()).toEqual('AngularTest app is running!');
   });
 
